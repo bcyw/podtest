@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>EnclFile</title>
+    <title>EnclGopher</title>
     <link>https://example.com</link>
-    <description>enclosure to file scheme</description>
+    <description>enclosure gopher to internal redis</description>
     <language>en</language>
     <lastBuildDate>Sat, 12 Sep 2026 14:00:00 GMT</lastBuildDate>
     <itunes:author>t</itunes:author>
@@ -11,12 +11,12 @@
     <itunes:image href="https://example.com/a.jpg"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>ENCL_FILE_PASSWD</title>
+      <title>ENCL_GOPHER_REDIS</title>
       <description>desc</description>
       <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-      <guid>encl-guid-16</guid>
+      <guid>encl-guid-17</guid>
       <itunes:duration>300</itunes:duration>
-      <enclosure url="file:///etc/passwd" type="audio/mpeg" length="100"/>
+      <enclosure url="gopher://127.0.0.1:6379/_%2A1%0D%0A%248%0D%0Ainfo%0D%0A" type="audio/mpeg" length="100"/>
     </item>
   </channel>
 </rss>

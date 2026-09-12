@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>SameIPRebind</title>
+    <title>RedirTest</title>
     <link>https://example.com</link>
-    <description>same ip rebind control</description>
+    <description>redirect follow test</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 13:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 13:30:00 GMT</lastBuildDate>
     <itunes:author>t</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://example.com/a.jpg"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>REBIND_SAME_IP</title>
+      <title>ENCL_REDIR_PUBLIC</title>
       <description>desc</description>
       <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-      <guid>encl-guid-11</guid>
+      <guid>encl-guid-12</guid>
       <itunes:duration>300</itunes:duration>
-      <enclosure url="http://make-1.1.1.1-rebindfor30s-after2times-1.1.1.1-rr.1u.ms/" type="audio/mpeg" length="100"/>
+      <enclosure url="https://httpbin.org/redirect-to?url=https://bcyw.github.io/podtest/control.txt" type="audio/mpeg" length="100"/>
     </item>
   </channel>
 </rss>

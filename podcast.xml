@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>MyTestPod</title>
+    <link>https://example.com</link>
+    <description>my test podcast feed</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Sep 2026 09:00:00 GMT</lastBuildDate>
+    <itunes:author>tester</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://example.com/art.jpg"/>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>MARKER_TITLE_ABC</title>
+      <description>MARKER_DESC_ABC</description>
+      <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+      <guid>my-guid-999</guid>
+      <itunes:duration>300</itunes:duration>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/295e4ef9-a287-4ab7-ad1c-8198129dccd2/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&amp;awEpisodeId=295e4ef9-a287-4ab7-ad1c-8198129dccd2&amp;feed=hvWWWzRv&amp;t=podcast&amp;e=nx-s1-5966574&amp;p=510289&amp;d=1749&amp;size=27996248" type="audio/mpeg" length="27996248"/>
+    </item>
+  </channel>
+</rss>

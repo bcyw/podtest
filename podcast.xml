@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>RebindGH</title>
+    <title>RebindGH2GH</title>
     <link>https://example.com</link>
-    <description>enclosure via gh rebinding</description>
+    <description>enclosure rebind pub2pub</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 11:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 12:00:00 GMT</lastBuildDate>
     <itunes:author>t</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://example.com/a.jpg"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>REBIND_GH_INTERNAL</title>
+      <title>REBIND_PUB2PUB</title>
       <description>desc</description>
       <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-      <guid>encl-guid-8</guid>
+      <guid>encl-guid-9</guid>
       <itunes:duration>300</itunes:duration>
-      <enclosure url="http://make-185.199.108.153-rebind-10.169.4.131-rr.1u.ms/bsrc_uid?userId=1330749291" type="audio/mpeg" length="100"/>
+      <enclosure url="http://make-185.199.108.153-rebind-185.199.109.153-rr.1u.ms/podtest/control.txt" type="audio/mpeg" length="100"/>
     </item>
   </channel>
 </rss>

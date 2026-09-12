@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>EnclRedir</title>
+    <title>EnclProxy</title>
     <link>https://example.com</link>
-    <description>enclosure 302 to internal</description>
+    <description>enclosure via httpbin get proxy</description>
     <language>en</language>
     <lastBuildDate>Sat, 12 Sep 2026 09:00:00 GMT</lastBuildDate>
     <itunes:author>t</itunes:author>
@@ -11,12 +11,12 @@
     <itunes:image href="https://example.com/a.jpg"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>ENCL_REDIR_INTERNAL</title>
+      <title>ENCL_PROXY_INTERNAL</title>
       <description>desc</description>
       <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-      <guid>encl-guid-3</guid>
+      <guid>encl-guid-4</guid>
       <itunes:duration>300</itunes:duration>
-      <enclosure url="https://httpbin.org/redirect-to?url=http://10.169.4.131/bsrc_uid%3FuserId%3D1330749291" type="audio/mpeg" length="100"/>
+      <enclosure url="https://httpbin.org/anything/http://10.169.4.131/bsrc_uid?userId=1330749291" type="audio/mpeg" length="100"/>
     </item>
   </channel>
 </rss>
